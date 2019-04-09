@@ -8,7 +8,7 @@ Authors@R: c(person("Armando", "Lenz", email = "armando.lenz@ctu.unibe.ch", role
 Description: The goal of presize is to provide functions for precision based 
     sample size calculation. For a given sample size, the functions will return 
     the precision (half the width of the confidence interval), and vice versa.
-License: GPL-3.0
+License: GPL-3
 URL: https://github.com/CTU-Bern/presize
 BugReports: https://github.com/CTU-Bern/presize/issues
 Encoding: UTF-8
