@@ -26,6 +26,7 @@
 #'   21:1331-1335. \href{https://doi.org/10.1002/sim.1108}{doi:10.1002/sim.1108}
 #' @param rho Desired intraclass correlation.
 #' @param k number of observations per n (subject).
+#' @param n number of subjects
 #' @inheritParams prec_riskdiff
 #' @export
 prec_icc <- function(rho, k, n = NULL, conf.width = NULL, conf.level = 0.95) {
@@ -99,6 +100,7 @@ prec_icc <- function(rho, k, n = NULL, conf.width = NULL, conf.level = 0.95) {
 #'   65:23-28. \href{https://doi.org/10.1007/BF02294183}{doi:10.1007/BF02294183}
 #'
 #' @param r Desired correlation coefficient.
+#' @param n number of observations
 #' @param method Exactly one of \code{pearson} (\emph{default}), \code{kendall},
 #'   or \code{spearman}. Methods can be abbreviated.
 #' @inheritParams prec_riskdiff
