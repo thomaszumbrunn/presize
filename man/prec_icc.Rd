@@ -11,6 +11,8 @@ prec_icc(rho, k, n = NULL, conf.width = NULL, conf.level = 0.95)
 
 \item{k}{number of observations per n (subject).}
 
+\item{n}{number of subjects}
+
 \item{conf.width}{precision (the full width of the conficende interval)}
 
 \item{conf.level}{confidence level}

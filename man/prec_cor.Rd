@@ -11,6 +11,8 @@ prec_cor(r, n = NULL, conf.width = NULL, conf.level = 0.95,
 \arguments{
 \item{r}{Desired correlation coefficient.}
 
+\item{n}{number of observations}
+
 \item{conf.width}{precision (the full width of the conficende interval)}
 
 \item{conf.level}{confidence level}

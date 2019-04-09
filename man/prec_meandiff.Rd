@@ -5,8 +5,8 @@
 \title{Sample size or precision for a mean difference}
 \usage{
 prec_meandiff(delta, sd1, sd2 = sd1, n1 = NULL, r = 1,
-  conf.width = NULL, conf.level = 0.95, variance = c("equal",
-  "unequal"), tol = .Machine$double.eps^0.25)
+  conf.width = NULL, conf.level = 0.95, variance = c("equal", "unequal"),
+  tol = .Machine$double.eps^0.25)
 }
 \arguments{
 \item{delta}{difference in means between the two groups.}
