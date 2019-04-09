@@ -39,15 +39,15 @@ Exactly one of the parameters \code{n, conf.width} must be passed as NULL,
 and that parameter is determined from the other.
 
 The wilson, agresti-coull, exact, and wald method are implemented. The
-wilson mehtod is suggested for small n (< 40), and the agresti-coull method
+wilson method is suggested for small n (< 40), and the agresti-coull method
 is suggested for larger n (see reference). The wald method is not suggested,
-but provided due to its widely distributed use.
+but provided due to its widespread use.
 
 \code{\link[stats]{uniroot}} is used to solve n for the agresti-coull,
 wilson, and exact method. Agresti-coull can be abbreviated by ac.
 }
 \examples{
-prec_prop(p = 1:9 / 10, n = 1:2 * 100, method = "wilson")
+prec_prop(p = 1/10, n = 1:2 * 100, method = "wilson")
 }
 \references{
 Brown LD, Cai TT, DasGupta A (2001) \emph{Interval Estimation for
